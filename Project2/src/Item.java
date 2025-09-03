@@ -22,5 +22,14 @@ public class Item {
 		return quantity;
 		
 	}
+
+	// toString 객체의 문자열 표현
+	@Override
+	public String toString() {
+		return "이름:" + item + ", 수량:" + quantity;
+		
+	}
+	
 	
 }
+

@@ -14,5 +14,12 @@ public class Book extends Item { // Book은 Item을 상속한다
 		return type;
 		
 	}
+	
+	@Override
+		public String toString() {
+			return "타입:" + type + ",이름:" + getItem() +
+					",수량:" + getQuantity();
+			
+		}
 
 }

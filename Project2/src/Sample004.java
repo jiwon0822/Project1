@@ -16,4 +16,5 @@ public class Sample004 {
 				+ computer.getItem() + " , 수량: " + computer.getQuantity());
 	}
 
+	
 }
