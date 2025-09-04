@@ -34,6 +34,15 @@ public class Computer extends Item {
 			
 		}
 		
+		@Override
+		public void displayInfo() {
+			System.out.println("제조사:" +  maker);
+			System.out.println("하드용량:" + hdd);
+			System.out.println("컴퓨터이름: " + getItem());
+			System.out.println("수량: " + getQuantity());
+			
+			
+		}
 		
 		@Override
 		public String toString() {
